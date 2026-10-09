@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" fill="none">
+<defs>
+ <linearGradient id="brass" x1="100" y1="100" x2="450" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#6c6846"/><stop offset=".25" stop-color="#d6b779"/><stop offset=".45" stop-color="#f3d99e"/><stop offset=".65" stop-color="#aa8750"/><stop offset="1" stop-color="#4b523b"/></linearGradient>
+ <linearGradient id="rim" x1="150" y1="80" x2="390" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#f1d397"/><stop offset=".5" stop-color="#98774a"/><stop offset="1" stop-color="#d8be81"/></linearGradient>
+ <radialGradient id="orb"><stop stop-color="#f4f5c8"/><stop offset=".3" stop-color="#dbe8a4"/><stop offset=".7" stop-color="#79ac94"/><stop offset="1" stop-color="#3c6f61"/></radialGradient>
+ <radialGradient id="halo"><stop stop-color="#d8e7ae" stop-opacity=".24"/><stop offset="1" stop-color="#cadb9b" stop-opacity="0"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+ <pattern id="ticks" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0L8 8" stroke="#263e31" stroke-width="1"/></pattern>
+ <g id="star"><path d="M0-9L2-2 9 0 2 2 0 9-2 2-9 0-2-2Z" fill="#d4c48c"/></g>
+ <g id="tooth"><path d="M-7-129L-9-144 9-144 7-129" fill="url(#brass)" stroke="#c9ad70" stroke-width=".7"/></g>
+ <g id="bolt"><circle r="4" fill="#e0c487"/><circle r="2" fill="#7d744d"/><path d="M-1-1L1 1" stroke="#f3d99a" stroke-width=".6"/></g>
+</defs>
+<g stroke="#a9b183" stroke-opacity=".22" stroke-width=".7"><circle cx="310" cy="245" r="216" stroke-dasharray="2 8"/><circle cx="310" cy="245" r="187"/><path d="M58 245H563M310 10V477M119 59L502 437M125 432L492 62"/><path d="M77 77H102M89 64V90M504 408H529M516 395V421"/><path d="M143 38L170 32 165 56M504 161L533 178 513 189M143 446L171 458 167 433"/></g>
+<circle cx="310" cy="240" r="126" fill="url(#halo)"/>
+<g transform="translate(310 250) rotate(-18)">
+ <ellipse rx="151" ry="188" stroke="#0e211c" stroke-width="15"/>
+ <ellipse rx="151" ry="188" stroke="url(#brass)" stroke-width="9"/>
+ <ellipse rx="145" ry="182" stroke="#e3c285" stroke-width="1"/>
+ <ellipse rx="151" ry="188" stroke="url(#ticks)" stroke-width="5"/>
+ <path d="M-105-132C-160-73-174 47-117 112M54-173C153-137 180-42 149 64" stroke="#e7d396" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g transform="translate(309 244) rotate(26)">
+ <use href="#tooth"/><use href="#tooth" transform="rotate(15)"/><use href="#tooth" transform="rotate(30)"/><use href="#tooth" transform="rotate(45)"/><use href="#tooth" transform="rotate(60)"/><use href="#tooth" transform="rotate(75)"/><use href="#tooth" transform="rotate(90)"/><use href="#tooth" transform="rotate(105)"/><use href="#tooth" transform="rotate(120)"/><use href="#tooth" transform="rotate(135)"/><use href="#tooth" transform="rotate(150)"/><use href="#tooth" transform="rotate(165)"/><use href="#tooth" transform="rotate(180)"/><use href="#tooth" transform="rotate(195)"/><use href="#tooth" transform="rotate(210)"/><use href="#tooth" transform="rotate(225)"/><use href="#tooth" transform="rotate(240)"/><use href="#tooth" transform="rotate(255)"/><use href="#tooth" transform="rotate(270)"/><use href="#tooth" transform="rotate(285)"/><use href="#tooth" transform="rotate(300)"/><use href="#tooth" transform="rotate(315)"/><use href="#tooth" transform="rotate(330)"/><use href="#tooth" transform="rotate(345)"/>
+ <circle r="127" stroke="url(#brass)" stroke-width="18"/><circle r="121" stroke="#edd39a" stroke-width="1"/><circle r="114" stroke="#6a7352" stroke-width="2"/>
+ <circle r="104" stroke="#c6bd89" stroke-width="1" stroke-dasharray="1 11"/>
+ <g stroke="#d6bd85" stroke-width="1.2" opacity=".8"><path d="M0-110V-78M55-95L39-67M95-55L67-39M110 0H78M95 55L67 39M55 95L39 67M0 110V78M-55 95L-39 67M-95 55L-67 39M-110 0H-78M-95-55L-67-39M-55-95L-39-67"/></g>
+ <g fill="#cfc48f" font-family="Georgia,serif" font-size="14" text-anchor="middle"><text y="-88">ᛟ</text><text x="80" y="-43">ᚷ</text><text x="82" y="49">ᛞ</text><text y="98">ᛉ</text><text x="-81" y="48">ᚹ</text><text x="-80" y="-44">ᚨ</text></g>
+ <circle r="72" stroke="url(#rim)" stroke-width="3"/><path d="M0-72L62 36H-62ZM0 72L62-36H-62Z" stroke="#c8c38a" stroke-width="1.2"/>
+ <circle r="58" stroke="#d5dc9f" stroke-opacity=".6" stroke-width=".8"/>
+ <use href="#bolt" transform="translate(0 -128)"/><use href="#bolt" transform="translate(128 0)"/><use href="#bolt" transform="translate(0 128)"/><use href="#bolt" transform="translate(-128 0)"/>
+</g>
+<circle cx="309" cy="244" r="40" fill="#c4dfa3" filter="url(#glow)" opacity=".5"/><circle cx="309" cy="244" r="25" fill="url(#orb)"/><circle cx="309" cy="244" r="30" stroke="url(#brass)" stroke-width="4"/><circle cx="309" cy="244" r="20" stroke="#e6edb4" stroke-width=".6"/>
+<path d="M309 217V271M282 244H336" stroke="#f6f5cb" stroke-width=".6" opacity=".5"/><path d="M309 224L314 239 329 244 314 249 309 264 304 249 289 244 304 239Z" fill="#ecf2ba"/>
+<g transform="translate(309 244) rotate(-24)"><ellipse rx="197" ry="62" stroke="#102921" stroke-width="12"/><ellipse rx="197" ry="62" stroke="url(#rim)" stroke-width="6"/><ellipse rx="191" ry="57" stroke="#e2cc91" stroke-width="1"/><path d="M-185-20C-127-80 33-59 137-39" stroke="#f1d69b" stroke-width="1.3"/><use href="#bolt" transform="translate(-197 0)"/><use href="#bolt" transform="translate(197 0)"/></g>
+<g transform="translate(183 343)"><circle r="38" fill="#2b4231" stroke="url(#brass)" stroke-width="9"/><circle r="26" stroke="#a69d6c" stroke-width="1"/><path d="M-24 0H24M0-24V24M-17-17L17 17M-17 17L17-17" stroke="url(#brass)" stroke-width="5"/><circle r="10" fill="#465340" stroke="#d0b678" stroke-width="3"/><use href="#bolt"/></g>
+<path d="M286 400L280 444H339L331 398" fill="#536045" stroke="url(#brass)" stroke-width="2"/><path d="M281 437H337M288 407L287 433M329 407L330 433" stroke="#b5a56f" stroke-width="2"/><path d="M265 444H353L367 455H251Z" fill="url(#brass)"/><path d="M250 456H367V465H250Z" fill="#364932" stroke="#bfa36b" stroke-width="1"/>
+<g><use href="#star" transform="translate(114 139) scale(.65)"/><use href="#star" transform="translate(468 88) scale(.6)"/><use href="#star" transform="translate(516 304) scale(.8)"/><use href="#star" transform="translate(100 376) scale(.45)"/><use href="#star" transform="translate(397 440) scale(.5)"/><circle cx="194" cy="68" r="2" fill="#c9c490"/><circle cx="541" cy="220" r="1.6" fill="#c9c490"/><circle cx="461" cy="398" r="1.6" fill="#c9c490"/></g>
+<g stroke="#9aab7e" stroke-width=".7" opacity=".65"><path d="M456 101L477 113 465 148M100 306L75 316 87 351"/><circle cx="456" cy="101" r="3"/><circle cx="477" cy="113" r="2"/><circle cx="465" cy="148" r="2"/><circle cx="75" cy="316" r="2"/><circle cx="87" cy="351" r="2"/></g>
+</svg>
